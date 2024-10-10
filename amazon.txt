@@ -37,3 +37,5 @@ var r = request.get('https://log.yoyo.com.s3.amazonaws.com/',
 // ruleid: aws-secret
 AWS_ACCESS_KEY_ID=AKIAPS3G9M9Q61MO0Q3Z
 AWS_SECRET_ACCESS_KEY=OeCMZzOGiujOuvnL/yXULsW7fofHDOfya2UoMkJ4
+
+// only a comment

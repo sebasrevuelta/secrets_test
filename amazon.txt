@@ -1,0 +1,41 @@
+// ruleid: aws-secret
+AWS_ACCESS_KEY_ID=AKIAPS3G9M9Q61MO0Q3Y
+AWS_SECRET_ACCESS_KEY=OeCMZzOGiujOuvnL/yXULsW7fofHDOfya2UoMkJ4
+
+// ruleid: aws-secret
+AWS_ACCESS_KEY_ID=ACCAWRK1HJOM6REYLXO0
+AWS_SECRET_ACCESS_KEY=g9bThdyg+bPy9m8f4VOk/RFdTgbkcs6lzr3+7icU
+
+// ok: aws-secret
+AWS_ACCESS_KEY_ID=AKIA0000000000000000
+AWS_SECRET_ACCESS_KEY=rtVP91JfEJd/Ot6E/Gp492qKqapFBa9uEaD/pfpw
+
+// ok: aws-secret
+AWS_ACCESS_KEY_ID=ACCA0NFU1N55QEXAMPLE
+AWS_SECRET_ACCESS_KEY=GemT+UxWzbTyOKtPdE8PftQ3ms/V2o4mAWE0npj9
+
+
+// ruleid: aws-secret
+AWS_ACCESS_KEY_ID=ASIAYLG0KPGIT6L4VFR1
+AWS_SECRET_ACCESS_KEY=AXuvH8WICRzYArkJ5o51/jVPgL9CKhYuCayaCTSG
+
+
+var request = require('../main')
+
+var r = request.get('https://log.yoyo.com.s3.amazonaws.com/',
+  { aws:
+  	 // ruleid: aws-secret
+    { key: 'ASIAYLG0KPGIT6L4VFR1'
+    , secret: 'AXuvH8WICRzYArkJ5o51/jVPgL9CKhYuCayaCTSG'
+    , bucket: 'log.yoyo.com'
+    }
+  }, function (e, resp, body) {
+    console.log(r.headers)
+    console.log(body)
+  }
+)
+// ruleid: aws-secret
+AWS_ACCESS_KEY_ID=AKIAPS3G9M9Q61MO0Q3Z
+AWS_SECRET_ACCESS_KEY=OeCMZzOGiujOuvnL/yXULsW7fofHDOfya2UoMkJ4
+
+// only a comment

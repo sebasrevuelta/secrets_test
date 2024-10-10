@@ -1,0 +1,20 @@
+// ruleid: abyssale
+abyssale=hnOk2UtlCE8R2bbcVP5br4fTruRiweZU52yKwP8Y
+
+// ok: abyssale
+abyssale=hnOk2UtlCE8R2bbcVP5br4fTruRiweZU5EXAMPLE
+
+// It's very unlikely for an Abyssale key to /only/ consist of hexdigits
+// ok: abyssale
+abyssale=047d52fab8c7bfb74c2aff8a6ef563dc31c455c6
+
+
+// todook: abyssale
+curl --header "x-api-key: LhGU6jr5C19QrT8yexCNoaBYeYHy9iwa5ugZlRzm" https://r09u5uw11g.execute-api.eu-west-1.amazonaws.com/prod/Concatenate
+
+
+// ok: abyssale
+{"socials":{"github":"https://github.com/Abyssaler"}, "content":"<pre class=\"line-numbers language-none\"><code class=\"language-none\">eyJhbGciOiJIUzI1NiJ9.MQ.Lu-KcR4aCeuT9hi1K474zV3s4VaopLDCcf4nZvH6DQo</code></pre>"}
+
+// ok: abyssale
+{"content":"<pre class=\"line-numbers language-none\"><code class=\"language-none\">eyJhbGciOiJIUzI1NiJ9.MQ.Lu-KcR4aCeuT9hi1K474zV3s4VaopLDCcf4nZvH6DQo</code></pre>", "cover":"https://abyssaler-typora-photobank.oss-cn-chengdu.aliyuncs.com/img_for_typora/wallhaven-7p12xv.jpg"}
